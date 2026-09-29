@@ -5,7 +5,7 @@ def home():
     return "Cloud PaaS"
 
 @app.route("/health")
-def home():
+def health():
     return "It is up and running!"
 
 if __name__ == "__main__":
